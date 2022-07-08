@@ -4,7 +4,7 @@ Projet réalisé dans le cadre de la formation developpeur front-end d'Openclass
 
 Projet : 
 
-	Au départ "Reservia, spécialisé dans la planification de vacances." au style remanié par mes soins dans une version 100% Metal !
+	Au départ "Reservia, spécialisé dans la planification de vacances." au style remanié par mes soins dans une version 100% Metal : Hairbnb!
 
 Objectif:
 	
