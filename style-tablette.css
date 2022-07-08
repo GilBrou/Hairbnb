@@ -1,0 +1,140 @@
+/*****GENERAL*****/
+body {
+	width: 100%;
+}
+
+header,
+.sub-header,
+aside,
+#accomodations,
+#activities {
+	margin: auto;
+	width: 97%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+aside {
+	padding-bottom: 20px;
+}
+
+/*****SECTION-1*****/
+
+.accomodations-and-popular {
+	flex-direction: column-reverse;
+	margin: auto;
+	padding: 0px;
+}
+
+.popular-title-and-icon,
+.accomodations-title,
+.more,
+.activities-title {
+	margin-left: 0px;
+	padding-left: 10px;
+}
+
+.cannebiere,
+.port,
+.mouettes,
+.mer,
+.panier,
+.amina,
+.soleil,
+.eau,
+.bleu-et-blanc {
+	background-position: 50% 65%;
+}
+
+/**PARTIE DROITE***/
+
+.popular-title-and-icon {
+	justify-content: flex-start;
+	margin: 15px 28px 3px 0px;
+}
+
+.chart {
+	margin-left: 15px;
+}
+
+.popular-rentals {
+	margin: 10px 25px 15px 25px;
+	line-height: 88%;
+	flex: 1;
+}
+
+.soleil,
+.eau,
+.bleu-et-blanc {
+	flex: 1.5;
+}
+
+aside .star-icon {
+	width: 5%;
+	height: 17px;
+	margin-top: 0px;
+}
+
+/**PARTIE GAUCHE***/
+
+.rentals {
+	width: 41.5%;
+	line-height: 80%;
+}
+
+.rentals .star-icon {
+	width: 4%;
+	margin-top: 5px;
+}
+
+/*****SECTION-2*****/
+
+.activities-content {
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.part-1,
+.part-3,
+.part-2,
+.part-4 {
+	flex-direction: column;
+	justify-content: center;
+	max-width: 100%;
+}
+
+.activity-type-1,
+.activity-type-2,
+.activity-type-3 {
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.vieux-port,
+.calanques,
+.longchamp {
+	flex: 4;
+	background-position: 50% 40%;
+}
+.dame {
+	background-position: 50% 15%;
+}
+
+/*****FOOTER*****/
+
+footer {
+	padding-top: 0px;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.about,
+.our-accomodations,
+.help {
+	flex: none;
+	padding-left: 0px;
+	justify-content: space-between;
+	line-height: 150%;
+}

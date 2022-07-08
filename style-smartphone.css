@@ -1,0 +1,309 @@
+
+/*****GENERAL*****/
+
+body{
+	width: 100%;
+	font-size: 110%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+strong{
+	font-size: 120%;
+}
+
+header, .sub-header, aside, #accomodations, #activities{
+	margin: auto;
+	width: 94%;
+	min-width: 94%;
+	padding-left: 5px;
+	padding-right: 5px;	
+	flex-wrap: wrap;
+}
+
+aside{
+	border-radius: 0px;
+	padding:5px 5px 30px 5px;
+}          
+
+nav{
+	order:3;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px; 
+	padding-left: 0px;
+	display: flex;
+}
+
+header div:nth-child(1), header div:nth-child(3){
+	flex:1;
+}
+
+nav a{
+	flex:1;
+	font-size: 100%;
+	display: flex;
+	justify-content: center;
+	border-top: none;
+	border-bottom: solid;
+	padding: 0px 20px 20px 20px;
+	/*border-color: #F2F2F2;*/
+}
+
+nav a:hover, nav a:visited, nav a:active, nav a:focus{
+	/*color: #0065FC;*/
+	border-bottom: solid;
+	border-top: none;
+	/*border-color: #0065FC;*/
+}
+
+/*****HEADER*****/
+
+.logo{
+	width: 100%;
+	padding: 0px 0px 30px 0px;
+}
+
+.logo img{
+	width: 55%;
+}
+
+.inscription{
+	padding: 10px 0px 40px 0px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.title-subtitle{
+	font-size: 87%;
+	max-width:80%;
+	line-height: 99%;
+}
+
+.search{ 
+width: 94%;
+padding-right: 26px;
+margin: 30px 0px 30px 0px;
+justify-content: center;
+}
+
+.search input[type=search]{
+	padding: 12px;
+	border-right: none;
+}
+
+.marker{
+	width: 10%;
+	height: 37px;	
+	background-image: url('Images/Icones/map.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+
+.marker img{
+	display: none;
+}
+
+.search-button{
+	width: 200%;
+	height: 49px;
+	font-size: 0px;
+	background-image: url('Images/Icones/search.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+	border-radius:12px;
+}
+
+.filters{
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0px;
+}
+
+.filters p:nth-child(1){
+	width: 100%;
+	margin: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+	font-size: 110%;
+}
+
+.filters strong:nth-child(1){
+	padding: 0px;
+}
+
+.filters a{
+	margin-left: 0px;
+}
+
+.prices, .family, .romantic, .pets{
+margin-left: 0px;
+}
+
+.infos p{
+	max-width: 95%;
+	font-size: 90%;
+	margin: 0px;
+}
+
+.circle-2{
+	align-self: flex-start;
+	background-image: url('Images/Icones/info.svg');
+	background-repeat: no-repeat;
+	background-position: 51% 50%;/*center;*/
+	background-size: 20%;
+	margin: 0px 10px 0px 0px;
+	width: 20px;
+	height: 18px;
+	padding: 2px;
+}
+
+.circle-2 img{
+	display: none;
+}
+
+/*****SECTION-1*****/
+
+.accomodations-and-popular{
+	flex-direction: column-reverse;
+	margin: auto;
+	padding: 0px;
+}
+
+.popular-title-and-icon, .accomodations-title, .more, .activities-title{
+	margin-left: 0px;
+	padding-left: 10px;
+}
+
+/**PARTIE DROITE***/   
+
+.popular-title-and-icon{
+	justify-content:space-between;
+	padding: 5px 15px 5px 15px;
+	margin: 0px;
+}
+
+.popular-rentals{
+	margin: 5px 15px 8px 15px;
+	line-height: 90%;
+	flex:1;
+	font-size: 90%;
+	height: 20%;
+	padding-right:0px;
+}
+
+.soleil, .eau, .bleu-et-blanc{
+	flex: 1;
+}
+
+aside .star-icon{
+	width: 8%;
+	height: 17px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/**PARTIE GAUCHE***/
+
+#accomodations{
+	/*background-color: white;*/
+	border-radius: 0px;
+	display: flex;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	flex:1;
+	padding:5px;
+}
+
+.accomodations-content{
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	align-content:center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.accomodations-title{
+	padding: 5px 15px 5px 15px;
+	margin: 25px 0px 15px 0px;
+}
+
+.rentals{
+	display: flex;
+	flex-direction: column;
+	flex:1;
+	width: 90%;
+	margin: 5px 15px 8px 15px;
+	max-height: 180px;
+}
+
+.rentals-text-and-evaluations{
+	display: flex;
+	flex:1;
+	padding-left: 10px;
+	align-items:center;
+	margin:0px;
+}
+
+.cannebiere, .port, .mouettes, .mer, .panier, .amina{
+	display: flex;
+	flex:none;
+	height: 100px;
+}
+
+.rentals .star-icon{
+	width: 5%;
+	height: 17px;
+	padding: 0px;
+	margin-top:7px;
+}
+
+/*****SECTION-2*****/
+
+.activities-content{
+	flex-direction: column;
+	justify-content:center;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+.part-1, .part-3,	.part-2, .part-4{
+	flex-direction: column;
+	justify-content: center;
+	max-width: 100%;
+}
+
+.activity-type-1 , .activity-type-2 , .activity-type-3{
+	height: 180px;
+	margin-bottom: 25px;
+}
+
+.vieux-port, .calanques, .longchamp{
+	flex:4;
+	background-position:  50% 40%;
+}
+
+.dame{
+	background-position:  50% 15%;
+}
+
+/*****FOOTER*****/
+
+footer{
+	padding-top: 20px;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.about, .our-accomodations, .help{
+	flex:none;
+	justify-content: space-between;
+	line-height: 170%;
+}
