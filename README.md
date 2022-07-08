@@ -4,7 +4,7 @@ Projet réalisé dans le cadre de la formation developpeur front-end d'Openclass
 
 Projet : 
 
-	Au départ "Reservia, spécialisé dans la planification de vacances." remanié par mes soins dans une version 100% Métal !
+	Au départ "Reservia, spécialisé dans la planification de vacances." au style remanié par mes soins dans une version 100% Metal !
 
 Objectif:
 	
@@ -38,4 +38,4 @@ Environnement de travail :
 	Le validateur W3C.
 	La plateforme GitHub Pages.
 
-Lien pour consulter le site : https://gilbrou.github.io/Reservia/
+Lien pour consulter le site : https://gilbrou.github.io/Hairbnb/
